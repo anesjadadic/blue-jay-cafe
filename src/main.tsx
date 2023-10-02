@@ -8,11 +8,11 @@ import "./styles.css";
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter ([
   {
     path: "*",
     element: <App/>,
