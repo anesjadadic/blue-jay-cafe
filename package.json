@@ -2,7 +2,7 @@
   "name": "blue-jay-cafe-new",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://anesjadadic.github.io/blue-jay-cafe-modern",
+  "homepage": "https://anesjadadic.github.io/blue-jay-cafe-modern/",
   "type": "module",
   "scripts": {
     "dev": "vite",

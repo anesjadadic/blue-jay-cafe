@@ -20,13 +20,13 @@ export default function Navbar() {
                 <div className={openNavList ? 'navbar-links-active' : 'navbar-links'}>
                     <ul>
                         <li>
-                            <a href="http://localhost:5173/home">home</a>
+                            <a href="/home">home</a>
                         </li>
                         <li>
-                            <a href="http://localhost:5173/shop">shop</a>
+                            <a href="/shop">shop</a>
                         </li>
                         <li>
-                            <a href="http://localhost:5173/menu">menu</a>
+                            <a href="/menu">menu</a>
                         </li>
                         <li>
                             <a 
