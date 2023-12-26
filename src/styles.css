@@ -39,7 +39,7 @@ h2 {
     top: 0;
     z-index: 1;
     background-color: rgb(255, 255, 255);
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 1rem 4rem 1rem 4rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -171,7 +171,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 450px;
+    height: 520px;
     max-width: 100%;
     object-fit: cover;
     border-radius: 8px;
@@ -563,7 +563,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 150px;
+    top: 130px;
     right: 0px;
     width: 75%;
     height: 100%;
@@ -577,7 +577,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 150px;
+    top: 130px;
     right: -1300px;
     width: 40%;
     height: 100%;
