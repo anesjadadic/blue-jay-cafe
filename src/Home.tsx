@@ -12,6 +12,7 @@ import aponte from "./assets/pictures/aponte-bag.png"
 import lorimer from "./assets/pictures/lorimer-bag.png"
 import tote from "./assets/pictures/tote-bag.png"
 import mug from "./assets/pictures/mug.png"
+import { Link } from "react-router-dom"
 
 export default function Home() {
     return (
@@ -32,9 +33,7 @@ export default function Home() {
                     FROM THE FERTILE FARMS OF INDONESIA, 
                     IT IS OUR LATEST AND GREATEST.
                     </h2>
-                    <a href="http://localhost:5173/shop">
-                        <button>SHOP NOW</button>
-                    </a>
+                    <Link to="/shop">Go to Shop</Link>
                 </div>
                 <div className="promo-image-section">
                     <img 
@@ -109,7 +108,7 @@ export default function Home() {
             <div className="shop">
                 <h2>COME BROWSE OUR ONLINE SHOP</h2>
                 <h1>coffee or merch, we have what you want</h1>
-                <a href="http://localhost:5173/shop">
+                <a href="/shop">
                     <button>SHOP NOW</button>
                 </a>
                 <div className="scroll-parent">
