@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "./assets/pictures/logo.png";
 import { useShoppingCart } from "./context/ShoppingCartContext";
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const { cartQuantity, openCart } = useShoppingCart();
@@ -20,13 +21,13 @@ export default function Navbar() {
                 <div className={openNavList ? 'navbar-links-active' : 'navbar-links'}>
                     <ul>
                         <li>
-                            <a href="/home">home</a>
+                            <Link to="/">home</Link>
                         </li>
                         <li>
-                            <a href="/shop">shop</a>
+                            <Link to="/shop">shop</Link>
                         </li>
                         <li>
-                            <a href="/menu">menu</a>
+                            <Link to="/menu">menu</Link>
                         </li>
                         <li>
                             <a 

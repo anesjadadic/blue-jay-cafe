@@ -1,6 +1,4 @@
 import aponte from "./assets/pictures/aponte-bag.png"
-import java from "./assets/pictures/java-bag.png"
-import teresa from "./assets/pictures/teresa-bag.png"
 import ainslie from "./assets/pictures/ainslie-bag.png"
 import decaf from "./assets/pictures/decaf-bag.png"
 import lorimer from "./assets/pictures/lorimer-bag.png"
@@ -9,20 +7,6 @@ import bottle from "./assets/pictures/water-bottle.png"
 import tote from "./assets/pictures/tote-bag.png"
 
 export const items = [{
-    id: 1,
-    name: 'java',
-    price: 15.99,
-    image: java,
-    type: 'coffee',
-    roast: 'medium',
-}, {
-    id: 2,
-    name: 'santa teresa',
-    price: 16.99,
-    image: teresa,
-    type: 'coffee',
-    roast: 'medium',
-}, {
     id: 5,
     name: 'tote bag',
     price: 20.99,

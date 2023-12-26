@@ -33,7 +33,7 @@ export default function Home() {
                     FROM THE FERTILE FARMS OF INDONESIA, 
                     IT IS OUR LATEST AND GREATEST.
                     </h2>
-                    <Link to="/shop">Go to Shop</Link>
+                    <Link to="/shop"><button>SHOP NOW</button></Link>
                 </div>
                 <div className="promo-image-section">
                     <img 
@@ -108,9 +108,9 @@ export default function Home() {
             <div className="shop">
                 <h2>COME BROWSE OUR ONLINE SHOP</h2>
                 <h1>coffee or merch, we have what you want</h1>
-                <a href="/shop">
+                <Link to="/shop">
                     <button>SHOP NOW</button>
-                </a>
+                </Link>
                 <div className="scroll-parent">
                     <div className="scroll-element primary">
                     <div className="image-info">
@@ -161,7 +161,7 @@ export default function Home() {
 
             <div className="menu-link">
                 <h2>thinking about stopping by?</h2><br/>
-                <h1>why not have a look at our <a href="http://localhost:5173/menu">menu</a>
+                <h1>why not have a look at our <Link to="/menu">menu</Link>
                 </h1>
             </div>
             <Footer />

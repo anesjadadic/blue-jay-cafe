@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
         <>
             <div className="footer">
                 <div className="footer-links">
-                    <a href="http://localhost:5173/home">home</a>
-                    <a href="http://localhost:5173/shop">shop</a>
-                    <a href="http://localhost:5173/menu">menu</a>
+                    <Link to="/">home</Link>
+                    <Link to="/shop">shop</Link>
+                    <Link to="/menu">menu</Link>
                 </div>
                 <div className="footer-name">
                     <h1>blue jay cafe</h1>
