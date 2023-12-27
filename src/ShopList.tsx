@@ -7,7 +7,7 @@ import bottle from "./assets/pictures/water-bottle.png"
 import tote from "./assets/pictures/tote-bag.png"
 
 export const items = [{
-    id: 5,
+    id: 2,
     name: 'tote bag',
     price: 20.99,
     image: tote,
